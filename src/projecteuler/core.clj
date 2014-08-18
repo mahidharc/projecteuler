@@ -11,7 +11,7 @@
 
 ;Problem 2
 (def fib-seq
-  (lazy-cat [1 2] (map + (rest fib-seq) fib-seq)))
+     (lazy-cat [1 2] (map + (rest fib-seq) fib-seq)))
 
 (apply + (filter even? (take 32 fib-seq)))
 
