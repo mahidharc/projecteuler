@@ -1,43 +1,32 @@
-<<<<<<< HEAD
-# projecteuler
+# Project Euler in Clojure
 
-FIXME: description
+Project Euler Clojure attempts
 
 ## Installation
 
-Download from http://example.com/FIXME.
+Requires:
+
+* Clojure 1.6.0
+* Leiningen 2.4.3
+* Java 1.7.0_55 OpenJDK 64-bit Server VM
 
 ## Usage
 
-FIXME: explanation
+A REPL can be used in the project directory (recommended), with
 
-    $ java -jar projecteuler-0.1.0-standalone.jar [args]
+```
+lein repl
+```
 
-## Options
+Alternatively, the project can be executed using
 
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+```
+lein run
+```
 
 ## License
 
-Copyright © 2014 FIXME
+Copyright © 2014 Mahidhar
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
-=======
-projecteuler
-============
-
-Project Euler Clojure
->>>>>>> 4265ae888f47a5103260967d2cd47a324ab0a79c
